@@ -1,4 +1,6 @@
 
+#code in python
+
 m=input().split(' ')
 s=0
 t=int(m[0])
