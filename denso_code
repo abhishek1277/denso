@@ -1,0 +1,11 @@
+
+m=input().split(' ')
+s=0
+t=int(m[0])
+p=int(m[1])
+p=100-p;
+while t>0:
+    s=s+t
+    t=(p*t)/100
+print(int(s))    
+    
